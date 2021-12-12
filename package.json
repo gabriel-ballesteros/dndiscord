@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gabriel-ballesteros/dndiscord/issues"
   },
-  "homepage": "https://github.com/gabriel-ballesteros/dndiscord#readme"
+  "homepage": "https://github.com/gabriel-ballesteros/dndiscord#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
 }
