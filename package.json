@@ -1,0 +1,19 @@
+{
+  "name": "dndiscord",
+  "version": "1.0.0",
+  "description": "![DnDiscord](https://user-images.githubusercontent.com/11746055/144778134-2a233af5-20e1-41fb-84e5-6e34d8f6ee7d.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-ballesteros/dndiscord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-ballesteros/dndiscord/issues"
+  },
+  "homepage": "https://github.com/gabriel-ballesteros/dndiscord#readme"
+}
