@@ -1,5 +1,6 @@
 const { Client, Collection, Intents } = require('discord.js')
-const { DISCORD_TOKEN } = require('./constants/env');
+const DISCORD_TOKEN = process.env.DNDISCORD_TOKEN;
+
 const commands = require('./commands/get-commands').getCommands()
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] })
 
@@ -27,5 +28,4 @@ client.on('interactionCreate', async (interaction) => {
 		await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
 	}
 });
-
 client.login(DISCORD_TOKEN)

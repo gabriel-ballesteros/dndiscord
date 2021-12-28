@@ -1,8 +1,8 @@
 const { SlashCommandBuilder } = require('@discordjs/builders')
 const { getRandomNumber } = require('../functions/get-random-number')
-const { MINUMUN_DICE, MAXIMUN_DICE_TWENTY } = require('../constants/dice')
+const { MINUMUM_DICE, MAXIMUM_DICE_TWENTY } = require('../constants/dice')
 
-const reply = () => { return "You rolled a " + getRandomNumber(MINUMUN_DICE, MAXIMUN_DICE_TWENTY) }
+const reply = () => { return "You rolled a " + getRandomNumber(MINUMUM_DICE, MAXIMUM_DICE_TWENTY) }
 
 const createData = () => {
     return new SlashCommandBuilder()
